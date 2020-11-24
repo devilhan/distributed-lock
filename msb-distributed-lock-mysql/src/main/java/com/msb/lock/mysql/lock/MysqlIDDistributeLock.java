@@ -85,14 +85,14 @@ public class MysqlIDDistributeLock extends AbstractLock {
             resultSet = preparedStatement.executeQuery();
 
             if (resultSet.next()) {
-                final String thread_id = resultSet.getString("thread_id");
-                final long expire_time = resultSet.getLong("expire_time");
-                log.debug("thread_id:{}", thread_id);
-                if (this.threadId.equals(thread_id)) {
+                final String threadId = resultSet.getString("thread_id");
+                final long expireTime = resultSet.getLong("expire_time");
+                log.debug("thread_id:{}", threadId);
+                if (this.threadId.equals(threadId)) {
                     //续租
                     log.info("续租中");
                     try (PreparedStatement updatePreparedStatement = connection.prepareStatement(UPDATE_SQL_FORMAT)) {
-                        updatePreparedStatement.setLong(1, expire_time + reletTime);
+                        updatePreparedStatement.setLong(1, expireTime + reletTime);
                         updatePreparedStatement.setString(2, this.lockName);
                         updatePreparedStatement.executeUpdate();
                     } catch (Exception e) {
@@ -100,7 +100,7 @@ public class MysqlIDDistributeLock extends AbstractLock {
                     }
                 } else {
                     //检查时间是否过期
-                    if (System.currentTimeMillis() > expire_time) {
+                    if (System.currentTimeMillis() > expireTime) {
                         log.info("锁：{}过期删除中", lockName);
                         delete();
                     }
