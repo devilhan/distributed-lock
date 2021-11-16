@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distributed-lock-etcd" />
+        <module name="distributed-lock-redis" />
+        <module name="distributed-lock-zk" />
+        <module name="distributed-lock-base" />
+        <module name="distributed-lock-mysql" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="distributed-lock" target="1.8" />
+      <module name="distributed-lock-base" target="1.8" />
+      <module name="distributed-lock-etcd" target="1.8" />
+      <module name="distributed-lock-mysql" target="1.8" />
+      <module name="distributed-lock-redis" target="1.8" />
+      <module name="distributed-lock-zk" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="distributed-lock-base" options="-parameters" />
+      <module name="distributed-lock-etcd" options="-parameters" />
+      <module name="distributed-lock-mysql" options="-parameters" />
+      <module name="distributed-lock-redis" options="-parameters" />
+      <module name="distributed-lock-zk" options="-parameters" />
+    </option>
+  </component>
+</project>

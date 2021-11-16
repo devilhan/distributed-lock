@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>msb-distributed-lock-mysql</module>
-        <module>msb-distributed-lock-redis</module>
-        <module>msb-distributed-lock-zk</module>
-        <module>msb-distributed-lock-etcd</module>
-        <module>msb-distributed-lock-base</module>
+        <module>distributed-lock-mysql</module>
+        <module>distributed-lock-redis</module>
+        <module>distributed-lock-zk</module>
+        <module>distributed-lock-etcd</module>
+        <module>distributed-lock-base</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -16,10 +16,10 @@
         <version>2.3.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.msb.lock</groupId>
-    <artifactId>msb-distributed-lock</artifactId>
+    <groupId>com.devilhan.lock</groupId>
+    <artifactId>distributed-lock</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>msb-distributed-lock</name>
+    <name>distributed-lock</name>
     <description>分布式锁实现</description>
 
     <properties>

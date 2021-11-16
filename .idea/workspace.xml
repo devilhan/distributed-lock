@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16766b9a-ce78-4724-ac41-8336fec9c6e2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-base/src/main/java/com/msb/lock/base/AbstractLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-base/src/main/java/com/devilhan/lock/base/AbstractLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-etcd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-etcd/src/main/java/com/msb/lock/etcd/EtcdDistributeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/msb/lock/etcd/EtcdDistributeLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-etcd/src/main/java/com/msb/lock/etcd/LockData.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/msb/lock/etcd/LockData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-etcd/src/main/java/com/msb/lock/etcd/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/msb/lock/etcd/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-etcd/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-etcd/src/test/java/com/msb/lock/etcd/EtcdLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/test/java/com/msb/lock/etcd/EtcdLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-etcd/src/test/java/com/msb/lock/etcd/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/test/java/com/msb/lock/etcd/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-mysql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/src/main/java/com/msb/lock/mysql/lock/MysqlFUDistributeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-mysql/src/main/java/com/devilhan/lock/mysql/MysqlFUDistributeLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/src/main/java/com/msb/lock/mysql/lock/MysqlIDDistributeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-mysql/src/main/java/com/devilhan/lock/mysql/MysqlIDDistributeLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/src/main/java/com/msb/lock/mysql/lock/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-mysql/src/main/java/com/devilhan/lock/mysql/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/src/main/java/com/msb/lock/mysql/lock/WatchDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-mysql/src/main/java/com/devilhan/lock/mysql/WatchDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/src/main/java/com/msb/lock/mysql/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-mysql/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-mysql/src/test/java/org/bx/scheduler/log/LockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-mysql/src/test/java/org/bx/scheduler/log/LockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-redis/src/main/java/com/msb/lock/redis/lock/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/msb/lock/redis/RedisLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-redis/src/main/java/com/msb/lock/redis/lock/RedisRedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/msb/lock/redis/RedisRedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-redis/src/main/java/com/msb/lock/redis/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-redis/src/main/resource/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/main/resource/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-redis/src/test/java/org.bx.scheduler.log/RedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/test/java/org.bx.scheduler.log/RedLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-redis/src/test/java/org.bx.scheduler.log/Single.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/test/java/org.bx.scheduler.log/Single.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-zk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-zk/src/main/java/com/msb/lock/zk/ZKLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/src/main/java/com/msb/lock/zk/ZKLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-zk/src/main/java/com/msb/lock/zk/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/src/main/java/com/msb/lock/zk/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-zk/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msb-distributed-lock-zk/src/test/java/com/msb/lock/zk/ZKLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/src/test/java/com/msb/lock/zk/ZKLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="jdk.selected.JAVA_MODULE" value="openjdk-16" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27157652" />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/distributed-lock.iml" filepath="$PROJECT_DIR$/distributed-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-lock-base/distributed-lock-base.iml" filepath="$PROJECT_DIR$/distributed-lock-base/distributed-lock-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-lock-etcd/distributed-lock-etcd.iml" filepath="$PROJECT_DIR$/distributed-lock-etcd/distributed-lock-etcd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-lock-mysql/distributed-lock-mysql.iml" filepath="$PROJECT_DIR$/distributed-lock-mysql/distributed-lock-mysql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-lock-redis/distributed-lock-redis.iml" filepath="$PROJECT_DIR$/distributed-lock-redis/distributed-lock-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributed-lock-zk/distributed-lock-zk.iml" filepath="$PROJECT_DIR$/distributed-lock-zk/distributed-lock-zk.iml" />
+    </modules>
+  </component>
+</project>
