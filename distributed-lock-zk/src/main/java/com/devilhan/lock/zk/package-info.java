@@ -6,4 +6,4 @@
  * @company 马士兵（北京）教育科技有限公司 (http://www.mashibing.com/)
  * @copyright 马士兵（北京）教育科技有限公司 · 项目架构部
  */
-package com.msb.lock.zk;
+package com.devilhan.lock.zk;

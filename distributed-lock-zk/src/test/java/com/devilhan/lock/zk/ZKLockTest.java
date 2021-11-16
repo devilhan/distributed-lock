@@ -1,4 +1,4 @@
-package com.msb.lock.zk;
+package com.devilhan.lock.zk;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;

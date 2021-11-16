@@ -1,4 +1,4 @@
-package com.msb.lock.zk;
+package com.devilhan.lock.zk;
 
 import com.devilhan.lock.base.AbstractLock;
 import lombok.extern.slf4j.Slf4j;

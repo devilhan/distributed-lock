@@ -1,4 +1,4 @@
-package com.msb.lock.etcd;
+package com.devilhan.lock.etcd;
 
 import javafx.concurrent.ScheduledService;
 import lombok.Data;

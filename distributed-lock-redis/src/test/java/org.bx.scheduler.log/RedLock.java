@@ -1,6 +1,6 @@
 package org.bx.scheduler.log;
 
-import com.msb.lock.redis.RedisRedLock;
+import com.devilhan.lock.redis.RedisRedLock;
 import org.junit.Test;
 import org.redisson.Redisson;
 import org.redisson.RedissonRedLock;

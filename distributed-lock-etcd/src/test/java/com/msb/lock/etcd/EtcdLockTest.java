@@ -1,5 +1,6 @@
 package com.msb.lock.etcd;
 
+import com.devilhan.lock.etcd.EtcdDistributeLock;
 import io.etcd.jetcd.Client;
 import org.junit.After;
 import org.junit.Before;

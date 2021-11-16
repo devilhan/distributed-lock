@@ -1,7 +1,7 @@
-package com.msb.lock.redis;
+package com.devilhan.lock.redis;
 
 import com.devilhan.lock.base.AbstractLock;
-import org.redisson.api.RedissonClient;
+import org.redisson.RedissonRedLock;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
@@ -10,47 +10,47 @@ import java.util.concurrent.locks.Condition;
  * @author 马士兵 · 项目架构部
  * @version V1.0
  * @contact zeroming@163.com
- * @date: 2020/6/4  15:20
+ * @date: 2020/6/4  15:54
  * @company 马士兵（北京）教育科技有限公司 (http://www.mashibing.com/)
  * @copyright 马士兵（北京）教育科技有限公司 · 项目架构部
  */
-public class RedisLock extends AbstractLock {
+public class RedisRedLock extends AbstractLock {
 
-    private RedissonClient client;
-    private String key;
+    private RedissonRedLock redLock ;
 
-    public RedisLock(RedissonClient client,String key){
-        this.client = client;
-        this.key = key;
+    public RedisRedLock(){}
+
+    public RedisRedLock(RedissonRedLock redLock) {
+        this.redLock = redLock;
     }
 
     @Override
     public void lock() {
-        client.getLock(key).lock();
+        redLock.lock();
     }
 
     @Override
     public void lockInterruptibly() throws InterruptedException {
-        client.getLock(key).lockInterruptibly();
+        redLock.lockInterruptibly();
     }
 
     @Override
     public boolean tryLock() {
-        return client.getLock(key).tryLock();
+        return redLock.tryLock();
     }
 
     @Override
     public boolean tryLock(long time, TimeUnit unit) throws InterruptedException {
-        return client.getLock(key).tryLock(time,unit);
+        return redLock.tryLock(time, unit);
     }
 
     @Override
     public void unlock() {
-        client.getLock(key).unlock();
+        redLock.unlock();
     }
 
     @Override
     public Condition newCondition() {
-        return client.getLock(key).newCondition();
+        return redLock.newCondition();
     }
 }

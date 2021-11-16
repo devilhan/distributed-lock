@@ -1,4 +1,4 @@
-package com.msb.lock.etcd;
+package com.devilhan.lock.etcd;
 
 import com.google.common.collect.Maps;
 import com.devilhan.lock.base.AbstractLock;
