@@ -6,14 +6,7 @@ import org.redisson.RedissonRedLock;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Condition;
 
-/**
- * @author 马士兵 · 项目架构部
- * @version V1.0
- * @contact zeroming@163.com
- * @date: 2020/6/4  15:54
- * @company 马士兵（北京）教育科技有限公司 (http://www.mashibing.com/)
- * @copyright 马士兵（北京）教育科技有限公司 · 项目架构部
- */
+
 public class RedisRedLock extends AbstractLock {
 
     private RedissonRedLock redLock ;

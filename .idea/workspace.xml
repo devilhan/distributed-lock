@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16766b9a-ce78-4724-ac41-8336fec9c6e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/msb/lock/etcd/EtcdDistributeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/devilhan/lock/etcd/EtcdDistributeLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/msb/lock/etcd/LockData.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/devilhan/lock/etcd/LockData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/msb/lock/etcd/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/main/java/com/devilhan/lock/etcd/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-etcd/src/test/java/com/msb/lock/etcd/EtcdLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-etcd/src/test/java/com/msb/lock/etcd/EtcdLockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/msb/lock/redis/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/devilhan/lock/redis/RedisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/msb/lock/redis/RedisRedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/devilhan/lock/redis/RedisRedLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-redis/src/test/java/org.bx.scheduler.log/RedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/test/java/org.bx.scheduler.log/RedLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-redis/src/test/java/org.bx.scheduler.log/Single.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/test/java/org.bx.scheduler.log/Single.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-zk/src/main/java/com/msb/lock/zk/ZKLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/src/main/java/com/devilhan/lock/zk/ZKLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-zk/src/main/java/com/msb/lock/zk/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/src/main/java/com/devilhan/lock/zk/package-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/distributed-lock-zk/src/test/java/com/msb/lock/zk/ZKLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-zk/src/test/java/com/devilhan/lock/zk/ZKLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/devilhan/lock/redis/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/devilhan/lock/redis/RedisLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/devilhan/lock/redis/RedisRedLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/distributed-lock-redis/src/main/java/com/devilhan/lock/redis/RedisRedLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +18,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="215w3muCh0SbmSIPwfUyOEeGEqW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="openjdk-16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.27157652" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16766b9a-ce78-4724-ac41-8336fec9c6e2" name="Changes" comment="" />
+      <created>1637244060805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637244060805</updated>
+      <workItem from="1637244063128" duration="2059000" />
+      <workItem from="1637333921895" duration="622000" />
+      <workItem from="1637549049014" duration="12163000" />
+      <workItem from="1637917521362" duration="623000" />
+      <workItem from="1637978856355" duration="12316000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
