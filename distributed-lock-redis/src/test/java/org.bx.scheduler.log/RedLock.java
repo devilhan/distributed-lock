@@ -12,14 +12,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-/**
- * @author 马士兵 · 项目架构部
- * @version V1.0
- * @contact zeroming@163.com
- * @date: 2020/6/3  18:06
- * @company 马士兵（北京）教育科技有限公司 (http://www.mashibing.com/)
- * @copyright 马士兵（北京）教育科技有限公司 · 项目架构部
- */
 public class RedLock {
 
     public static RLock create (String url, String key){

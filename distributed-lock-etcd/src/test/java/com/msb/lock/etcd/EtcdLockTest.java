@@ -10,15 +10,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-/**
- * ETCD 分布式锁，测试类
- * @author 马士兵 · 项目架构部
- * @version V1.0
- * @contact zeroming@163.com
- * @date: 2020年06月04日 13时08分
- * @company 马士兵（北京）教育科技有限公司 (http://www.mashibing.com/)
- * @copyright 马士兵（北京）教育科技有限公司 · 项目架构部
- */
 public class EtcdLockTest {
     private Client client;
     private String key = "/etcd/lock";

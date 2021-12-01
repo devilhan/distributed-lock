@@ -5,14 +5,6 @@ import io.etcd.jetcd.kv.GetResponse;
 
 import java.util.concurrent.*;
 
-/**
- * @author 马士兵 · 项目架构部
- * @version V1.0
- * @contact zeroming@163.com
- * @date: 2020年06月03日 18时47分
- * @company 马士兵（北京）教育科技有限公司 (http://www.mashibing.com/)
- * @copyright 马士兵（北京）教育科技有限公司 · 项目架构部
- */
 public class Test {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         // create client

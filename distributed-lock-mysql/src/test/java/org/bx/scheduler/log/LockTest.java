@@ -2,8 +2,8 @@ package org.bx.scheduler.log;
 
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.devilhan.lock.mysql.lock.MysqlFUDistributeLock;
-import com.devilhan.lock.mysql.lock.MysqlIDDistributeLock;
+import com.devilhan.lock.mysql.MysqlFUDistributeLock;
+import com.devilhan.lock.mysql.MysqlIDDistributeLock;
 import org.junit.Before;
 import org.junit.Test;
 
